@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return ''' 
-<form action="/info" method="POST">
+<form action="/info" method="GET">
 <input type="text" name="user" placeholder="Full Name"><br>
 <input type="email" name="email" placeholder="Email"><br>
 <input type="password" name="pass" placeholder="password"><br>
